@@ -36,5 +36,12 @@ class Product extends BaseModel
     /** @var string $connection */
     //protected $connection = '';
 
-    // TODO: Define other default value and relations
+    protected $fillable = [
+        'name',
+        'quantity',
+        'category',
+        'type',
+        'price',
+        'description'
+    ];
 }
